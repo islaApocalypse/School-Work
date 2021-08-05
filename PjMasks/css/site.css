@@ -1,0 +1,420 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #333;
+    overflow-x: hidden;
+}
+nav {
+    position: fixed;
+    z-index: 7;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    background: rgba(224, 14, 189, 0.89);
+    border-left: 4px solid #a202ff;
+    padding-top: 100px;
+}
+    a {
+        font-size: 2.2rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: #fff;
+        margin-left: 10px;
+        padding: 15px 0;
+    }
+   a:hover {
+        color: #0044ff;
+        text-decoration: underline;
+    }
+#heroHeader {
+    clear: both;
+    background: url(../Assets/Images/Bkg1.svg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 100%;
+}
+    #Hamburger {
+        position: fixed;
+        z-index: 11;
+        right: 25px;
+        top: 25px;
+    }
+    #Logo {
+        width: 200px;
+        height: 200px;
+        background: url(../Assets/Images/logo.png);
+        position: absolute;
+        z-index: 3;
+        left: 15px;
+        top: 5px;
+    }
+    #audio {
+        position: absolute;
+        z-index: 5;
+        top: 215px;
+        left: 15px;
+    }
+#villianHeader {
+    clear: both;
+    background: url(../Assets/Images/villianBkg1.svg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 100%;
+}
+    #LogoTwo {
+        width: 200px;
+        height: 200px;
+        background: url(../Assets/Images/logo.png);
+        float: left;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+main {
+    width: 100%;
+    background: #333;
+}
+    section {
+        width: 90%;
+        margin: 0 auto;
+        height: 650px;
+    }
+        #Gekko {
+            background: #040;
+            border: 3px solid #101010;
+        }
+            #Gekko > h1 {
+                text-align: center;
+                font-size: 5rem;
+                font-weight: 700;
+                color: #00ff44;
+            }
+            #Gekko > h3 {
+                font-size: 2.5rem;
+                font-weight: 500;
+                margin-top: 10px;
+                margin-left: 15px;
+                color: #00ff44;
+                text-decoration: underline;
+            }
+            #Gekko > p {
+                font-size: 2rem;
+                font-weight: 300;
+                color: #fff;
+                margin: 5px 15px;
+            }
+            #Gekko > ol {
+                font-size: 1.9rem;
+                font-weight: 300;
+                color: #fff;
+                margin: 5px 50px;
+            }
+            #lizard {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                border: 3px solid #000;
+                float: right;
+                margin-right: 5px;
+                margin-top: 70px;
+            }
+        #CatBoy {
+            background: #004;
+            border-left: 3px solid #101010; 
+            border-right: 3px solid #101010; 
+        }
+        #CatBoy > h1 {
+            text-align: center;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #0044ff;
+        }
+        #CatBoy > h3 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #0044ff;
+            text-decoration: underline;
+        }
+        #CatBoy > p {
+            font-size: 2rem;
+            font-weight: 300;
+            color: #fff;
+            margin: 5px 15px;
+        }
+        #CatBoy > ol {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #fff;
+            margin: 5px 50px;
+        }
+            #cat {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                border: 3px solid #000;
+                float: right;
+                margin-right: 5px;
+                margin-top: 70px;
+            }
+        #Owlette {
+            background: #400;
+            border: 3px solid #101010;
+        }
+        #Owlette > h1 {
+            text-align: center;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #ff0044;
+        }
+        #Owlette > h3 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #ff0044;
+            text-decoration: underline;
+        }
+        #Owlette > p {
+            font-size: 2rem;
+            font-weight: 300;
+            color: #fff;
+            margin: 5px 15px;
+        }
+        #Owlette > ol {
+            font-size: 1.7rem;
+            font-weight: 300;
+            color: #fff;
+            margin: 5px 50px;
+        }
+            #owl {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                border: 3px solid #000;
+                float: right;
+                margin-right: 5px;
+                margin-top: 70px;
+            }
+        #pjRobot {
+            background: #ccc;
+            border-left: 3px solid #000;
+            border-right: 3px solid #000;
+            border-bottom: 3px solid #000;
+        }
+        #pjRobot > h1 {
+            text-align: center;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #03a9db;
+        }
+        #pjRobot > h3 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #03db0e;
+            text-decoration: underline;
+        }
+        #pjRobot > p {
+            font-size: 1.9rem;
+            font-weight: 300;
+            color: #db0344;
+            margin: 5px 15px;
+        }
+        #pjRobot > ol {
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: #db0344;
+            margin: 5px 50px;
+        }
+            #robot {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                border: 3px solid #000;
+                float: right;
+                margin-right: 5px;
+                margin-top: 70px;
+            }
+        #lunaGirl {
+            background: #310044;
+            border: 3px solid #101010;
+        }
+        #lunaGirl > h1 {
+            text-align: center;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #6a0991;
+        }
+        #lunaGirl > h3 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #6a0991;
+            text-decoration: underline;
+        }
+        #lunaGirl > p {
+            font-size: 2rem;
+            font-weight: 300;
+            color: #fff;
+            margin: 5px 15px;
+        }
+        #lunaGirl > ol {
+            font-size: 1.7rem;
+            font-weight: 300;
+            color: #fff;
+            margin: 5px 50px;
+        }
+            .moths {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                border: 3px solid #000;
+                float: right;
+                margin-right: 5px;
+                margin-top: 70px;
+            }
+        #nightNinja {
+            background: #050044;
+            border-left: 3px solid #101010;
+            border-right: 3px solid #101010;
+        }
+        #nightNinja > h1 {
+            text-align: center;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #1d14a7;
+        }
+        #nightNinja > h3 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #1d14a7;
+            text-decoration: underline;
+        }
+        #nightNinja > p {
+            font-size: 2rem;
+            font-weight: 300;
+            color: #fff;
+            margin: 5px 15px;
+        }
+        #nightNinja > ol {
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: #fff;
+            margin: 5px 50px;
+        }
+        .ninjas {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 3px solid #000;
+            float: right;
+            margin-right: 5px;
+            margin-top: 70px;
+        }
+        #Romeo {
+            background: #ddd;
+            border: 3px solid #101010;
+        }
+        #Romeo > h1 {
+            text-align: center;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #387233;
+        }
+        #Romeo > h3 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #387233;
+            text-decoration: underline;
+        }
+        #Romeo > p {
+            font-size: 1.7rem;
+            font-weight: 300;
+            color: #000;
+            margin: 5px 15px;
+        }
+        #Romeo > ol {
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: #000;
+            margin: 5px 50px;
+        }
+        .evilGenius {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 3px solid #000;
+            float: right;
+            margin-right: 5px;
+            margin-top: 70px;
+        }
+        #WolfyKids {
+            background: #222;
+            border-left: 3px solid #fff;
+            border-right: 3px solid #fff;
+        }
+        #WolfyKids > h1 {
+            text-align: center;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #908f92;
+        }
+        #WolfyKids > h3 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #908f92;
+            text-decoration: underline;
+        }
+        #WolfyKids > p {
+            font-size: 2rem;
+            font-weight: 300;
+            color: #fff;
+            margin: 5px 15px;
+        }
+        #WolfyKids > ol {
+            font-size: 2rem;
+            font-weight: 300;
+            color: #fff;
+            margin: 5px 50px;
+        }
+        .wolves {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            float: right;
+            margin-right: 5px;
+            margin-top: 70px;
+        }
+footer {
+    width: 90%;
+    height: 75px;
+    border: 3px solid #101010;
+    background: #bb8;
+    text-align: center;
+    font-size: .9em;
+    font-style: italic;
+    padding-top: 25px;
+    margin-bottom: 75px;
+    margin-left: 76px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
